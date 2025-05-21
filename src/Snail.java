@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Snail extends Main{
+    int speed;
+    int energy;
+    boolean likelyToWin = true;
 
-public class Snail {
+    if (Math.max)
 }
