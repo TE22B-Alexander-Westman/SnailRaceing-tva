@@ -20,7 +20,7 @@ public abstract class Snail{
 
     public void calculateWin(){
         if(getScore() >= 10){
-            likelyToWin =true;
+            likelyToWin =true;// kollar om sniglarna har en chans att vinna
         }
     }
 }

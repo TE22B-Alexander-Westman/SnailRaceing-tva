@@ -1,5 +1,5 @@
 import java.util.Random;
-
+//LÅNGSAM SNIGEL
 public class SlackingSnail extends Snail{
     public void slackingSnail(){
         Random rand = new Random();
