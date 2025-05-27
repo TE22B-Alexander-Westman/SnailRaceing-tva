@@ -1,7 +1,26 @@
-public class Snail extends Main{
+public abstract class Snail{
     int speed;
     int energy;
-    boolean likelyToWin = true;
+    boolean likelyToWin;
 
-    if (Math.max)
+    public int getSpeed() {
+        return speed;
+    }
+
+    public int getEnergy() {
+        return energy;
+    }
+
+    public boolean isLikelyToWin() {
+        return likelyToWin;
+    }
+    public int getScore(){
+        return speed + energy;
+    }
+
+    public void calculateWin(){
+        if(getScore() >= 10){
+            likelyToWin =true;
+        }
+    }
 }

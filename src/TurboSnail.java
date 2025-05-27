@@ -1,13 +1,10 @@
-public class TurboSnail extends Snail{
-    int randomSpeed = 5+(int)(Math.random()*6);
-    int randomEnergy = 4+(int)(Math.random()*7);
+import java.util.Random;
 
-
-
-    public int getSpeed() {
-        return speed=randomSpeed;
+public class TurboSnail extends Snail {
+    public void turboSnail() {
+        Random rand = new Random();
+        this.speed = rand.nextInt(6) + 5;
+        this.energy = rand.nextInt(5) + 6;
     }
-    public int getEnergy() {
-    return energy=randomEnergy;
-    }
+
 }
